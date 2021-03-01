@@ -3,9 +3,9 @@ const path=require('path');
 const { nextTick } = require('process');
 const app=express();
 const members=require('./Members')
-const moment=require('./Members')
+const moment=require('moment')
 const logger=(req,res,next)=> {
-    console.log(`${req.protocol}://${req.get('host')}${req.originalUrl}`);
+    console.log(`${req.protocol}://${req.get('host')}${req.originalUrl} : ${moment().format()}`);
     next();
 }
 

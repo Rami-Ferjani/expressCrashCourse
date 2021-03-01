@@ -1,0 +1,8 @@
+npm init -y
+npm i express
+
+installing nodemon:
+npm install -D nodemon
+after it finished installe go to package.json o ekteb fel scripts:
+"start": "node index",
+    "dev": "nodemon index"

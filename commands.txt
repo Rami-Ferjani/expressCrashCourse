@@ -6,3 +6,8 @@ npm install -D nodemon
 after it finished installe go to package.json o ekteb fel scripts:
 "start": "node index",
     "dev": "nodemon index"
+
+mb3d kif bch tstarti el server tketeb: npm run dev
+
+kifech t7ot contentu auto mta3 html?
+tekteb ! o ta5tar awel wa7da

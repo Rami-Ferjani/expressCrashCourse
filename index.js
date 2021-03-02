@@ -5,14 +5,27 @@ const app=express();
 var bodyparser=require('body-parser');
 const moment=require('moment')
 const logger=require('./middleware/logger')
+const exphbs=require('express-handlebars')
+const members=require('./Members');
+
+app.get('/',(req, res)=>res.render('index',{
+    title:'Member App',
+    members
+}));
 
 //set static folder
 app.use(express.static(path.join(__dirname, 'public')));
+
+//handlebars Middleware
+app.engine('handlebars', exphbs());
+app.set('view engine', 'handlebars');
 
 //Body Parser Middleware
 
 app.use(express.json());
 app.use(express.urlencoded({ extended : false }));
+
+
 
 //members API Routes
 app.use('/api/members', require('./routes/api/members'));

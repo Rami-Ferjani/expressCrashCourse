@@ -11,3 +11,5 @@ mb3d kif bch tstarti el server tketeb: npm run dev
 
 kifech t7ot contentu auto mta3 html?
 tekteb ! o ta5tar awel wa7da
+
+npm i express-handlebars

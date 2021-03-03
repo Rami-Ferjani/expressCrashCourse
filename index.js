@@ -12,6 +12,10 @@ app.get('/',(req, res)=>res.render('index',{
     title:'Member App',
     members
 }));
+app.get('/title',(req, res)=>res.render('index',{
+    title:'Member App',
+    members
+}));
 
 //set static folder
 app.use(express.static(path.join(__dirname, 'public')));

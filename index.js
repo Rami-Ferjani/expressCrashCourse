@@ -13,7 +13,7 @@ app.get('/',(req, res)=>res.render('index',{
     members
 }));
 app.get('/title',(req, res)=>res.render('index',{
-    title:'Member App',
+    title:'Member App 12',
     members
 }));
 

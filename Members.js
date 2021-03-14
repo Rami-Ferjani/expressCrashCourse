@@ -17,5 +17,11 @@ const members=[
         email:'rami@gmail.com',
         status:'active'
     }
+    {
+        id:3,
+        name:'rami ferjani',
+        email:'rami@gmail.com',
+        status:'active'
+    }
 ];
 module.exports=members;

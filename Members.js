@@ -16,11 +16,17 @@ const members=[
         name:'rami ferjani',
         email:'rami@gmail.com',
         status:'active'
-    }
+    },
     {
         id:3,
         name:'rami ferjani',
         email:'rami@gmail.com',
+        status:'active'
+    },
+    {
+        id:5,
+        name:'fares mhaya',
+        email:'fares@gmail.com',
         status:'active'
     }
 ];

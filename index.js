@@ -24,10 +24,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
-//Body Parser Middleware
+Body Parser Middleware
 
-/*app.use(express.json());
-app.use(express.urlencoded({ extended : false }));*/
+app.use(express.json());
+app.use(express.urlencoded({ extended : false }));
 
 
 
